@@ -27,9 +27,8 @@ fi
 DOT_COUNT=$(echo "$TARGET" | tr -cd '.' | wc -c)
 if [ "$DOT_COUNT" -ge 2 ]; then
     IS_SUBDOMAIN=true
-    # استخلص الـ root domain من السب دومين
-    ROOT_DOMAIN=$(echo "$TARGET" | awk -F. '{print $(NF-1)"."$NF}')
-    echo -e "\e[33m[~] Subdomain mode detected. Target: $TARGET | Root: $ROOT_DOMAIN\e[0m"
+    ROOT_DOMAIN="$TARGET"
+    echo -e "\e[33m[~] Subdomain mode detected. Target: $TARGET\e[0m"
 else
     IS_SUBDOMAIN=false
     ROOT_DOMAIN="$TARGET"
