@@ -123,7 +123,7 @@ pwn.sh  ────────────────────────
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/Mohammed-Maher0/Maher-Framework.git
+git clone https://github.com/Mohammed-Maher0/Maher-Framework-V8.git
 cd Maher-Framework
 chmod +x *.sh
 ./install.sh
