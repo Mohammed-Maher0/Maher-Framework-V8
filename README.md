@@ -36,6 +36,23 @@ Maher Framework is a **fully automated bug bounty hunting pipeline** written in 
 
 ---
 
+## 📚 Methodology Guide
+
+> New to the framework? Not sure how to interpret the output files? Start here.
+
+A complete operational guide covering every output file, how to triage findings by severity, manual testing techniques the framework can't automate, and how to write a winning bug report.
+
+[![Download Methodology PDF](https://img.shields.io/badge/📥%20Download-Methodology%20Guide%20PDF-red?style=for-the-badge)](./Maher_Framework_V8_Methodology.pdf)
+
+**What's inside:**
+- How to read `alive.txt`, `vulns/`, `osint/`, `mining/` output files
+- Severity triage matrix: Critical → Low decision framework
+- Manual testing checklist for IDOR, business logic & auth flaws
+- Bug report template that gets paid at full severity
+- Common mistakes and how to avoid false positives
+
+---
+
 ## ✨ What's New in V8
 
 | Feature | V7 | V8 |
